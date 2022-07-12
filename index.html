@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess_word</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="winner hidden">
+<!-- <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_PBgNop.jhttps://assets7.lottiefiles.com/packages/lf20_uu0x8lqv.jsonsonhttps://assets10.lottiefiles.com/packages/lf20_l4xxtfd3.json" mode="bounce" background="transparent"  speed="1"  style="width: 100%; height: 500px;"  loop controls autoplay></lottie-player>
+--></div>
+    <main class="app">
+        <div class="container">
+            <div class="header">
+                <h1 class="title">Guess the word</h1>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <input type="text" class="typing" maxlength="1">
+                    <div class="inputs">
+                        <input type="text" disabled>
+                    </div>
+                    <div class="info">
+                        <p class="disc"></p>
+                        <p>num of trying : <span class="guess-count"></span></p>
+                    </div>
+                    <button>try again &#128020;</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <audio id="music" src="audio/music.mp3"></audio>
+    <audio id="lose" src="audio/loser.mp3"></audio>
+    
+    <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+</html>
